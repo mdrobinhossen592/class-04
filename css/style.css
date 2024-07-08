@@ -1,0 +1,166 @@
+/* common css start*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1024px;
+    margin: 0 auto;
+}
+/* common css end*/
+
+/* header section start  */
+.header {
+    background: #000;
+}
+.text{}
+.text h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding: 10px 0;
+}
+/* header section end  */
+
+/* bannar section start  */
+.bannar {
+    background: url(../images/young-mens\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.bannar_title {
+    text-align: center;
+}
+.bannar_title h1 {
+    text-align: center;
+    background: #fff;
+    display: inline-block;
+    padding: 8px 15px;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.bannar_title p {
+    background: #fff;
+    padding: 10px 0;
+    margin: 23px 0;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.bannar_title a {
+    display: inline-block;
+    text-decoration: none;
+    background: red;
+    color: #fff;
+    padding: 11px 25px;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+/* bannar section end */
+
+/* about section start  */
+.about_area {
+    background: #faf9fd;
+}
+.about_content {
+    text-align: center;
+    padding: 45px 0 100px 0;
+}
+.about_content h1 {
+    text-transform: capitalize;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 40px 0 10px 0;
+    text-decoration: underline;
+}
+.abp {
+    display: flex;
+    justify-content: center;
+}
+.about_content .abp p {
+    width: 79%;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+/* about section end  */
+
+/* institute section start  */
+.institute {
+    padding-top: 60px;
+    border-top: 2px solid #ddd;
+    background-color: #faf9fd;
+}
+.institute h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 25px;
+    text-decoration: underline;
+}
+/* nstitute section end  */
+
+/* contact section start  */
+.contact_area {
+    background: #faf9fd;
+    padding: 50px 0;
+}
+.contact_us h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: underline;
+    margin-bottom: 25px;
+}
+.contact_items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact_items .input_form label {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #000;
+}
+.contact_items .input_form input {
+    height: 30px;
+    width: 390px;
+    padding: 0 10px;
+    border: none;
+    border-bottom: 2px solid #a3a3a3;
+    outline: none;
+}
+.contact_items .input_form .btm {
+    border: none;
+    background: repeating-linear-gradient(189deg, #ff0000, transparent 126px);
+    width: 410px;
+    cursor: pointer;
+}
+/* contact section end  */
+
+/* footer section start */
+.footer_area {
+    background: #000;
+    padding: 20px 0;
+}
+.footer_content p {
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+/* footer section end */
